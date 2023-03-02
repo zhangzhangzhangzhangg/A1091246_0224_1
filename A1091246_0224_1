@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class A1091246_0224_1 {
+  public static void main(String[] argv) {
+    int number1,a;
+    
+    System.out.print("請輸入任意整數:");
+    Scanner sc = new Scanner(System.in);
+    number1 = sc.nextInt();
+
+    a = number1 % 2;
+    String result = (a == 0) ? "偶數" : "奇數";
+    System.out.println(result);
+  }
+}
